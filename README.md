@@ -5,6 +5,7 @@ Python implementation of [CHORD Distributed Hash Table](https://en.wikipedia.org
 ### Usage
 ##### Root
 `./dht_peer -m 1 <-p own_port> <-h own_hostname>`    
+
 Root node must be initialized first.
 
 ##### Peers
@@ -14,4 +15,5 @@ Root node must be initialized first.
 ##### Client
 
 `./dht_client <-p own_port> <-h own_hostname> <-r root_port> <-R root_hostname>`
+
 Clients are able to store files and retrieve files from the network, both iteratively and recursively.
